@@ -1,0 +1,109 @@
+.navbg{
+    height: 100px;
+    flex-shrink: 0;
+    background-color:#FFF
+}
+.imagecl{
+    width: 147.998px;
+    height: 53.179px ;
+    flex-shrink: 0;
+}
+.content-wrapper{
+    margin-left: 30px;
+}
+.heroimg{
+    width: 504px;
+    height: 518px;
+    flex-shrink: 0;
+    margin-top: 20px;
+}
+.main-wrapper{
+    background-color: #FBF9F4;
+}
+#box1{
+    height: 329px;
+    width: 530px;
+    margin-top: 100px;
+    font-weight: bold;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+h3{
+    color: var(--black, #26363E);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Arial;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 153.846% */
+}
+p{
+    color: var(--grayscale-black, #26363E);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Arial;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+}
+.btn-style{
+    display: flex;
+    width: 228px;
+    height: 56px;
+    padding: 18px 36.103px 18px 35.897px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.centermt{
+    margin-top: 80px;
+}
+#box2{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px;
+    border: 2px solid red;
+    width: 499px;
+    height: 458px;
+    margin-top: 50px;
+}
+.mainhead{
+    color: var(--grayscale-black, #26363E);
+    font-variant-numeric: lining-nums proportional-nums;
+    /* Headlines / H3 18px bold */
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 144.444% */
+    width: 396px;
+}
+.maindesc{
+    color: var(--grayscale-black, #26363E);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    width: 432px;
+}
+.ml{
+    margin-left: 10px;
+}
+.footer1{
+    height: 43px;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer1 a {
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+  }
